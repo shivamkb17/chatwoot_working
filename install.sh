@@ -331,7 +331,7 @@ function setup_chatwoot() {
   rvm install "ruby-3.1.3"
   rvm use 3.1.3 --default
 
-  git clone https://github.com/voko3456/chatwoot_repo_voko.git
+  git clone https://github.com/shivamkb17/chatwoot_working.git chatwoot
   cd chatwoot
   git checkout "$BRANCH"
   bundle
